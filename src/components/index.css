@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Inter:wght@500;700&family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  background-color: #eeca15f7;
+}
+
+p {
+  color: #ffffff;
+}
+
+button {
+  border: none;
+}
+
+.headerAll {
+  padding: 0.74% 5.55%;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+header:hover {
+  opacity: 0.5;
+}
+
+.header-title {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: Bold;
+  font-size: 32px;
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.HeaderNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  height: 22px;
+  gap: 32px;
+}
+
+.HeaderButtons {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 100px;
+  height: 22px;
+  font-size: 16px;
+}
+
+.HeaderNav :hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.div-footer {
+  height: 38px;
+  margin: 32px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.footer-right {
+  display: flex;
+  margin: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.footer-left {
+  margin: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  opacity: 0.5;
+}
+
+a {
+  color: inherit;
+}
+
+.section1,
+.section5 {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 5.55%;
+  gap: 40px;
+}
+.section1-Header {
+  margin-top: 0px;
+  font-family: "Courier New", Courier, monospace;
+  width: 100%;
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.section1 button {
+  justify-content: flex-start;
+  width: 13.8%;
+  height: 56px;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: #9b3d12;
+  color: white;
+  font-size: 20px;
+}
+
+.section1-Text {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.section2 {
+  padding: 160px 5.55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.section2-About {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 32px;
+}
+
+.image image {
+  display: flex;
+}
+
+.texts-all {
+  font-family: Kanit;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.About-details {
+  display: flex;
+  gap: 2%;
+}
+
+.section3,
+.section4 {
+  padding: 160px 5.55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.experience-table {
+  width: 100%;
+  display: flex;
+  gap: 10%;
+}
+
+.Experience-table-right {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.texts-sector {
+  margin: 0px;
+  font-size: 12px;
+  font-family: Inter;
+  font-weight: 400;
+  color: #c1bebe;
+}
+
+.texts-date {
+  margin: 0;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  width: 15%;
+}
+
+.texts-Role {
+  margin-top: 0px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.texts-Company {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.texts-location {
+  font-family: Inter;
+  font-weight: 400;
+  margin: 0px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.texts-resp {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.image {
+  display: flex;
+  align-self: center;
+  height: inherit;
+}
+
+.section4-all {
+  display: flex;
+}
+
+.section4-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.section5-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 2%;
+  background-color: transparent;
+  height: 22px;
+}
+
+.section5-buttons span {
+  margin: 0px;
+  color: #ffffff;
+  display: flex;
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+
+.section5-buttons button {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.section2-Part1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section2-Part2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10%;
+}
+
+.image4 {
+  display: flex;
+  align-self: center;
+  height: inherit;
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  .section1 button {
+    width: 180px;
+  }
+
+  .header-title {
+    font-size: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .section1,
+  .section3,
+  .section4 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .section1-Header {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+
+  .HeaderNav {
+    gap: 10px;
+  }
+
+  .section2 {
+    display: flex;
+    gap: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .image img {
+    display: flex;
+    width: 200px !important;
+    height: 260px !important;
+  }
+
+  .section2-About {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .section2-Part1 {
+    display: flex;
+    gap: 10%;
+  }
+
+  .texts-all {
+    font-size: 16px;
+  }
+
+  .About-details {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .listLeft,
+  .listRight {
+    margin: 0px;
+    padding-left: 20px;
+  }
+
+  .section4-all {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+  }
+
+  .image4 img {
+    display: flex !important;
+    width: 100% !important;
+    height: 240px !important;
+  }
+
+  .section4-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .section4-2 p {
+    margin: 0px;
+  }
+
+  .div-footer {
+    margin: 0px;
+    padding: 60px 5.55%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section5-buttons button svg {
+    height: 40px !important;
+  }
+}

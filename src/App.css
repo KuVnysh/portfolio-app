@@ -1,38 +1,324 @@
-.App {
-  text-align: center;
+.Inter-500 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #004a7c;
+}
+.white {
+  color: #fafafa;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Inter-400 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #004a7c;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.courier {
+  font-family: "Courier Prime", sans-serif;
+  font-weight: 700;
+  color: #004a7c;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.courier-white {
+  font-family: "Courier Prime", sans-serif;
+  font-weight: 700;
+  color: #fafafa;
+}
+
+.kanit {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #004a7c;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 6%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #005691;
+  border-bottom: 1px solid #82c3ec;
+  z-index: 99999;
+}
+
+.header-name {
+  font-size: 32px;
+  line-height: 36px;
+  background-color: transparent;
+  border-radius: 2px;
+}
+
+.nav-btns {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-btn {
+  background-color: transparent;
+}
+
+.promo {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 260px 30% 160px 6%;
+}
+
+.promo .title {
+  margin-bottom: 32px;
+}
+
+.subtitle {
+  margin-bottom: 40px;
+}
+
+.CV-btn {
+  width: 200px;
+  height: 56px;
+  background: #005691;
+  color: #fafafa;
+  border-radius: 1px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  gap: 10px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.CV-btn:hover {
+  color: #005691;
+  box-shadow: inset 0 0 0 50px #82c3ec;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.about-me {
+  display: flex;
+  padding: 260px 6%;
+  justify-content: space-between;
+  gap: 370px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.height {
+  height: 142px;
+}
+
+.title {
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.about-me .text .bullet-points {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 24px;
+}
+
+.bullet-point {
+  display: flex;
+  gap: 12px;
+}
+
+.about-me .text .bullet-points .bullet {
+  width: 22px;
+  height: 22px;
+}
+
+.about-me .my-photo {
+  width: 280px;
+  height: 320px;
+  border: 4px solid #e8f1f5;
+}
+
+.experience {
+  display: flex;
+  padding: 200px 6%;
+  flex-direction: column;
+  gap: 64px;
+  padding-right: 730px;
+}
+
+.experience .workplace-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.experience .workplace {
+  display: flex;
+  gap: 100px;
+}
+
+.experience .year {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.experience .workplace-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience .workplace-title {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+
+.experience .workplace-location {
+  margin: 0 0 16px 34px;
+}
+
+.projects {
+  display: flex;
+  padding: 160px 6%;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 128px;
+}
+
+.project {
+  display: flex;
+  gap: 13%;
+}
+
+.even {
+  flex-direction: row-reverse;
+}
+
+.project-photo {
+  width: fit-content;
+  height: 388px;
+  border: 4px solid #e8f1f5;
+}
+
+.project-name {
+  font-size: 40px;
+  line-height: 54px;
+}
+
+a {
+  color: #004a7c;
+}
+
+.contact {
+  display: flex;
+  padding: 160px 6%;
+  flex-direction: column;
+  gap: 32px;
+}
+
+footer {
+  padding: 32px 6%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grey-text {
+  opacity: 0.5;
+}
+
+.buttons {
+  display: flex;
+  gap: 50px;
+}
+
+.contact-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 2px;
+  background: transparent;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-btn:hover {
+  transform: scale(1.5);
+}
+
+.btn-img {
+  height: 50px;
+  width: 50px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .promo {
+    padding-right: 25%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .about-me {
+    padding-top: 200px;
+  }
+
+  .experience {
+    padding-top: 200px;
+  }
+
+  .projects {
+    padding-top: 200px;
+  }
+
+  .project {
+    gap: 8%;
+  }
+
+  .projects-list {
+    gap: 170px;
+  }
+
+  .contact {
+    padding-top: 200px;
+    padding-bottom: 240px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .promo {
+    padding-right: 17%;
+  }
+
+  .about-me {
+    padding-top: 200px;
+  }
+
+  .experience {
+    padding-top: 200px;
+  }
+
+  .projects {
+    padding-top: 140px;
+  }
+
+  .project {
+    gap: 8%;
+  }
+
+  .contact {
+    padding-top: 200px;
+    padding-bottom: 240px;
   }
 }
